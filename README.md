@@ -1,6 +1,6 @@
 # LangChain for LLM Application Development
 
-A comprehensive tutorial repository for learning LangChain, a framework for developing applications powered by language models. This repository contains hands-on lessons covering models, prompts, memory, chains, Q&A systems, evaluation, and agents.
+A comprehensive tutorial repository for learning LangChain, a framework for developing applications powered by language models. This repository contains hands-on lessons covering Ai agents.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berkekurt/langchain-tutorial/blob/main/introduction.ipynb)
 
@@ -46,7 +46,7 @@ pip install -U langchain-community
 pip install -U langchain-experimental
 ```
 
-For a comprehensive list of available integrations, refer to the [LangChain Integrations documentation](https://docs.langchain.com/oss/python/langchain/integrations).
+For a comprehensive list of available integrations, refer to the [LangChain Integrations documentation](https://docs.langchain.com/oss/python/integrations/providers/overview).
 
 ### Additional Dependencies
 
@@ -91,9 +91,8 @@ For a more comprehensive example with memory, structured output, and context, se
 ```
 .
 ├── README.md
-├── introduction.ipynb         # Comprehensive tutorial notebook
-└── images/                    # Images used in the tutorial
-    └── sequential_chain.png
+├── introduction.ipynb         # Tutorial notebook
+
 ```
 
 ## Tutorial Content
@@ -128,8 +127,8 @@ Before starting, make sure you have:
 
 1. **Clone this repository:**
    ```bash
-   git clone <repository-url>
-   cd "LangChain for LLM Application Development"
+   git clone https://github.com/berkekurt/langchain-tutorial.git
+   cd langchain-tutorial
    ```
 
 2. **Install dependencies:**
@@ -155,7 +154,7 @@ Before starting, make sure you have:
 
 4. **Open the tutorial notebook:**
    
-   Open `introduction.ipynb` to begin learning LangChain. The notebook contains all lessons in a structured, progressive format. You can also click the "Open In Colab" badge at the top of this README to run it directly in Google Colab.
+   Open `introduction.ipynb` to begin learning LangChain. The notebook contains how to set up the environment and 2 Ai agent examples. You can also click the "Open In Colab" badge at the top of this README to run it directly in Google Colab.
 
 ## Resources
 
@@ -177,8 +176,7 @@ Before starting, make sure you have:
 
 ### Additional Resources
 
-- [LangChain GitHub Repository](https://github.com/langchain/langchain)
-- [LangChain Discord Community](https://discord.gg/langchain)
+- [LangChain GitHub Repository](https://github.com/langchain-ai/langchain)
 
 ## Notes
 
